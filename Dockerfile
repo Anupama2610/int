@@ -4,7 +4,7 @@
 
 FROM tomcat:10.1-jdk17
 
-COPY index.html /usr/local/tomcat/webapps/ROOT/home.html
+COPY home.html /usr/local/tomcat/webapps/ROOT/home.html
 
 EXPOSE 8080
 
